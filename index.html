@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catatan Saya</title>
+    <link rel="icon" href="ikon.png" type="image/x-icon">
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        body{
+            background:#f8fbff;
+        }
+    </style>
+</head>
+<body class="font-black text-black">
+
+    <div class="max-w-7xl mx-auto p-6">
+
+        <!-- Header -->
+        <header class="mb-10">
+            <div class="bg-blue-500 border-4 border-black shadow-[8px_8px_0_0_#000] p-8">
+
+                <h1 class="text-4xl md:text-6xl text-white uppercase">
+                    Catatan Saya
+                </h1>
+
+                <p class="text-white mt-3 text-lg">
+                    Kumpulan catatan yang telah saya catat, hanya untuk pengingat kegiatan saya sendiri.
+                </p>
+
+            </div>
+        </header>
+
+        <!-- Search -->
+        <section class="mb-8">
+
+            <input
+                id="searchInput"
+                type="text"
+                placeholder="Cari judul, kategori, atau deskripsi..."
+                class="w-full border-4 border-black rounded-none p-4 text-lg shadow-[6px_6px_0_0_#000] focus:outline-none focus:bg-yellow-100"
+            >
+
+        </section>
+
+        <!-- Cards -->
+        <main
+            id="notesContainer"
+            class="grid gap-6 sm:grid-cols-2 xl:grid-cols-3"
+        >
+        </main>
+
+        <!-- Empty -->
+        <div
+            id="emptyState"
+            class="hidden mt-10 bg-red-500 text-white border-4 border-black shadow-[8px_8px_0_0_#000] p-6 text-center text-xl"
+        >
+            Tidak ada catatan yang ditemukan.
+        </div>
+
+        <!-- Footer -->
+        <footer class="mt-10">
+
+            <div class="bg-blue-500 text-white border-4 border-black shadow-[8px_8px_0_0_#000] p-5 text-center text-xl">
+
+                Total Catatan:
+                <span id="totalNotes">0</span>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
