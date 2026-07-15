@@ -30,6 +30,22 @@
         "kategori": "E Zine",
         "deskripsi": "E Zine Ujian ASAT IPAS SMK IT Smart Informatika Surakarta 2026",
         "link": "https://online.fliphtml5.com/hafzz11/sugn"
+    }, 
+    {
+        "id": 5,
+        "judul": "Catatan MySQL Learn",
+        "tanggal": "15-07-2026",
+        "kategori": "Catatan Belajar",
+        "deskripsi": "Pembelajaran MySQL",
+        "link": "https://docs.google.com/document/d/1qpf0718pQq7IfQbFIU1A3Vd265vs3HWdmUcmlb_FtiM/edit?tab=t.0"
+    }, 
+    {
+        "id": 6,
+        "judul": "Acta III - Catatan 3 Bulanan Juli-September 2026",
+        "tanggal": "15-07-2026",
+        "kategori": "Catatan Belajar",
+        "deskripsi": "Catatan belajar 3 bulan, edisi Juli - September 2026",
+        "link": "https://docs.google.com/document/d/1AAVPyAoV_IC3M7zh2Nw1crMW3AKF2OTW9vbBNT3W6vw/edit?tab=t.0"
     }
 ]
 
